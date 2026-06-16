@@ -37,7 +37,7 @@ body {
 main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 40px;
+  gap: 2.5rem;
   width: 100%;
   max-width: 1200px;
 }
@@ -63,14 +63,14 @@ main {
 
 .card .card-content {
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
   padding: 2rem;
 }
 
 .card .card-content .author {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 1.56rem;
 }
 
 .card .card-content .author .author-img {
@@ -85,7 +85,7 @@ main {
 
 .card .card-content .author .author-details {
   display: grid;
-  gap: 2px;
+  gap: 0.13rem;
 }
 
 .card .card-content .author .author-details .name {
@@ -99,7 +99,7 @@ main {
 
 .card .card-content .testimonials {
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .card .card-content .testimonials .testimonial-intro {
@@ -139,7 +139,7 @@ main {
   background-color: var(--white);
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 75rem) {
   main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto;
