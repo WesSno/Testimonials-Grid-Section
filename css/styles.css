@@ -139,10 +139,10 @@ main {
   background-color: var(--white);
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   main {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 470px 460px;
+    grid-template-rows: auto auto;
   }
 
   .card.one {
@@ -168,12 +168,5 @@ main {
   .card.five {
     grid-column: 4 / -1;
     grid-row: 1 / -1;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  main {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 350px 330px;
   }
 }
