@@ -142,7 +142,7 @@ main {
 @media only screen and (min-width: 1000px) {
   main {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 350px 330px;
+    grid-template-rows: 470px 460px;
   }
 
   .card.one {
@@ -168,5 +168,12 @@ main {
   .card.five {
     grid-column: 4 / -1;
     grid-row: 1 / -1;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 350px 330px;
   }
 }
